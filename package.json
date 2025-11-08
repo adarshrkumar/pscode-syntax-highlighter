@@ -1,0 +1,25 @@
+{
+  "name": "pscode",
+  "displayName": "Common Pseudo Code Syntax Highlighter",
+  "description": "Pseudo Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pscode",
+      "aliases": ["Common Psuedo Code", "pscode"],
+      "extensions": [".pscode",".pcode",".psuedo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pscode",
+      "scopeName": "keyword.control.n",
+      "path": "./syntaxes/pscode.tmLanguage.json"
+    }]
+  }
+}
