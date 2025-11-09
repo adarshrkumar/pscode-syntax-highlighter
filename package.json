@@ -3,6 +3,15 @@
   "displayName": "Common Pseudo Code Syntax Highlighter",
   "description": "Pseudo Code",
   "version": "0.0.1",
+  "publisher": "adarshrkumar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshrkumar/pscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adarshrkumar/pscode/issues"
+  },
+  "homepage": "https://github.com/adarshrkumar/pscode#readme",
   "engines": {
     "vscode": "^1.105.0"
   },
