@@ -48,8 +48,20 @@ value = null
 empty = nothing
 
 // ==================
-// 3. STORAGE TYPES
+// 3. VARIABLE DECLARATIONS
 // ==================
+
+// Declare variables without initial values
+define counter
+define userName
+define isValid
+
+// Later assign values
+counter = 0
+userName = "John"
+isValid = true
+
+// Declare with type annotations
 number age
 string firstName
 boolean isActive

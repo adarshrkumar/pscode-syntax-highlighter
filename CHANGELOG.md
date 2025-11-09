@@ -1,8 +1,18 @@
+<!-- markdownlint-disable MD024 -->
+
 # Change Log
 
 All notable changes to the "pscode" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.0.3] - 2025-11-08
+
+### Added
+
+- `define` keyword for declaring variables without initial values
+- Example usage in example.pscode demonstrating variable declaration
+- Documentation in commonps.md for the `define` keyword
 
 ## [0.0.1] - Initial Release
 

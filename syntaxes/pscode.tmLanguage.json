@@ -150,6 +150,10 @@
 					"match": "\\b(try|catch|finally|error)\\b"
 				},
 				{
+					"name": "storage.modifier.pscode",
+					"match": "\\b(define)\\b"
+				},
+				{
 					"name": "keyword.other.pscode",
 					"match": "\\b(input|output|open|close|read|write|append)\\b"
 				},

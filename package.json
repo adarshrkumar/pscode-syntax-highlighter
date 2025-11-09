@@ -2,7 +2,7 @@
   "name": "pscode",
   "displayName": "Common Pseudo Code Syntax Highlighter",
   "description": "Pseudo Code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "adarshrkumar",
   "repository": {
     "type": "git",

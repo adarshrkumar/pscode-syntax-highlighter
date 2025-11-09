@@ -64,11 +64,26 @@ stringFromNum = convert age to string  // or string(age)
 
 ### Assignment
 
+Declare a variable without an initial value:
+```define variableName```
+
 Assign the variable `newNumber` to the value of `7`:
 ```newNumber = 7```
 
 Assign the variable `currentNumber` to `newNumber`:
 ```currentNumber = newNumber```
+
+Example with `define`:
+
+```pscode
+define counter
+define userName
+define isValid
+
+counter = 0
+userName = "John"
+isValid = true
+```
 
 ### Constants
 
