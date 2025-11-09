@@ -218,11 +218,11 @@ upper2 = to uppercase(text)
 lower2 = to lowercase(text)
 
 // Array functions
-append(array, element)
-remove(array, element)
-insert(array, index, element)
+append element to array
+remove element at index 0 from array
+insert element at index 0 in array
 sort(array)
-push(stack, element)
+push element to stack
 pop(stack)
 
 // Type checking
@@ -344,7 +344,7 @@ function findPrimes takes in limit
                 break
 
         if isPrime
-            append(primes, number)
+            append number to primes
 
     return primes
 
