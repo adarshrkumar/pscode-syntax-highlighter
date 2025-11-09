@@ -323,7 +323,7 @@ output "Welcome, " + userName
 
 constant MAX_SIZE = 100
 
-new record Student
+record Student
     string name
     integer age
     array grades
