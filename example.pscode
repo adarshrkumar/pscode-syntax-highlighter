@@ -160,9 +160,9 @@ until value is greater than 0
 // Loop control
 for i from 1 to 100
     if i modulus 2 equals 0
-        continue
+        skip
     if i is greater than 50
-        break
+        jump
     output i
 
 // ==================
@@ -297,9 +297,6 @@ function processData
         if critical_error
             exit
 
-        if should_restart
-            jump to start
-
     stop
 
 // ==================
@@ -333,7 +330,7 @@ function findPrimes takes in limit
         for divisor from 2 to sqrt(number)
             if number modulus divisor equals 0
                 isPrime = false
-                break
+                jump
 
         if isPrime
             append number to primes
