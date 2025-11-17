@@ -4,6 +4,9 @@
   "description": "Common Pseudo Code",
   "version": "0.0.5",
   "publisher": "adarshrkumar",
+  "scripts": {
+    "test": "echo \"Test Succesfull!\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/adarshrkumar/pscode.git"

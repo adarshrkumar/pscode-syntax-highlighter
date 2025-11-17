@@ -1,5 +1,7 @@
 # Common Pseudocode Syntax Highlighter (pscode)
 
+[![.github/workflows/vs-extension.yml](https://github.com/adarshrkumar/commonps-syntax-highlighter/actions/workflows/vs-extension.yml/badge.svg)](https://github.com/adarshrkumar/commonps-syntax-highlighter/actions/workflows/vs-extension.yml)
+
 A VS Code extension that provides comprehensive syntax highlighting for [Common Pseudocode](https://commonps.dev), making it easier to write, read, and teach pseudocode.
 
 ## Features
