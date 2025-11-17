@@ -6,7 +6,7 @@
   "publisher": "adarshrkumar",
   "scripts": {
     "test": "echo \"Test Succesfull!\"",
-    "publish": "npm run next-version && vsce package && vsce publish",
+    "publish": "vsce package && vsce publish minor",
     "next-version": "node nextVersion.js"
   },
   "repository": {
