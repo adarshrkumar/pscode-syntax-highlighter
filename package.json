@@ -5,7 +5,9 @@
   "version": "0.0.5",
   "publisher": "adarshrkumar",
   "scripts": {
-    "test": "echo \"Test Succesfull!\""
+    "test": "echo \"Test Succesfull!\"",
+    "publish": "npm run next-version && vsce package && vsce publish",
+    "next-version": "node nextVersion.js"
   },
   "repository": {
     "type": "git",
@@ -22,16 +24,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "pscode",
-      "aliases": ["Common Pseudo Code", "pscode"],
-      "extensions": [".pscode",".pcode",".pseudo", ".commonps"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "pscode",
-      "scopeName": "source.pscode",
-      "path": "./syntaxes/pscode.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "pscode",
+        "aliases": [
+          "Common Pseudo Code",
+          "pscode"
+        ],
+        "extensions": [
+          ".pscode",
+          ".pcode",
+          ".pseudo",
+          ".commonps"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pscode",
+        "scopeName": "source.pscode",
+        "path": "./syntaxes/pscode.tmLanguage.json"
+      }
+    ]
   }
 }
